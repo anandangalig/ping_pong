@@ -1,0 +1,20 @@
+.top {
+  background-color:
+  height: 40%;
+  width: auto;
+  text-align: center;
+}
+
+.side {
+  background:
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+.bottom {
+  float: left;
+  background: 
+  height: auto;
+  width: auto;
+}
