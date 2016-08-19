@@ -1,20 +1,21 @@
 .top {
-  background-color:
+  background-color: #6193c8;
   height: 40%;
   width: auto;
   text-align: center;
-}
-
-.side {
-  background:
-  float: left;
-  height: auto;
-  width: auto;
+  border-radius: 5px;
 }
 
 .bottom {
-  float: left;
-  background: 
+  border-radius: 5px;
+  background-color: #eac14f;
   height: auto;
   width: auto;
+}
+
+img {
+  display: none;
+  float: right;
+  padding: 10px;
+  border-radius: 25px;
 }
