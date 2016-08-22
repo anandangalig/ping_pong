@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("form#userInput").submit(function(event){
     event.preventDefault();
+    $("ul").html("");
     var input = parseInt($("#inputNumber").val());
     var inputArray = [];
 
@@ -22,6 +23,7 @@ $(document).ready(function(){
       } else if (currentInteger % 3 !==0 || currentInteger % 5 !==0 || currentInteger % 15 !==0) {
         $("ul").append("<li>" + currentInteger + "</li>");
         $("img").show();
+      //isNaN(currentInteger) and other itirations of it- DID NOT WORK
       } else {
         $("ul").append("<li>" + "Please enter a number and try again!" + "</li>");
       }
