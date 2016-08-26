@@ -23,14 +23,12 @@ $(document).ready(function(){
     $("ul").html("");
     $("img").hide();
 
-    var inputArray = [];
     var input = parseInt($("#inputNumber").val());
     if (isNaN(input)) {
       $("ul").append("<li>" + "Please enter a number and try again!" + "</li>");
     };
 
     for (var index = 1; index <= input; index++) {
-      inputArray.push(index);
       calculate(index);
     }
   });
