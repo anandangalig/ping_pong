@@ -17,12 +17,21 @@ _Enter any number as the PING, and we will return a PONG by counting from 1 to y
 * _If user enters not-a-number (i.e. letters and/or signs), the program will not work and display a message requesting to enter an actual number._
   * _input: hello_  
   * _output: "Please enter a number and try again!"_
+* _If user enters a number that is less than the first translatable number (e.g. 3 to Ping), the program will simply count up to the entered number._
+  * _input: 2_
+  * _output: 1,2_
+* _If user enters a number that is equal to the first translatable number, the program will count up to the inputted number and replace it the corresponding word._
+  * _input: 3_
+  * _output: 1,2,Ping_
 * _If user enters a number, the program will count up to the inputted number while returning Ping, Pong, or Ping-Pong for numbers divisible by 3, 5, or 15 respectively._
   * _input: 5_
   * _output: 1,2,Ping,4,Pong_
-* _If user enters a number, the program will count up to the inputted number while returning the in-divisible numbers as it is (e.g. 1, 2, 4, or any numbers that are not divisible by 3, 5, or 15)_
+* _If user enters a number, the program will count up to the inputted number while returning the in-divisible numbers as it is, while returning Ping, Pong, or Ping-Pong for numbers divisible by 3, 5, or 15 respectively._
   * _input: 6_
   * _output: 1,2,Ping,4,Pong,6_
+* _If user enters a number, the program will count up to the inputted number while returning the in-divisible numbers as it is, while returning Ping, Pong, or Ping-Pong for numbers divisible by 3, 5, or 15 respectively._
+  * _input: 15_
+  * _output: 1,2,Ping,4,Pong,Ping,7,8,Ping,Pong,11,Ping,13,14,Ping-Pong._
 
 ## Setup/Installation Requirements
 
