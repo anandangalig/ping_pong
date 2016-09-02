@@ -20,7 +20,7 @@ _Enter any number as the PING, and we will return a PONG by counting from 1 to y
 * _If user enters a number that is less than the first translatable number (e.g. 3 to Ping), the program will simply count up to the entered number._
   * _input: 2_
   * _output: 1,2_
-* _If user enters a number that is equal to the first translatable number, the program will count up to the inputted number and replace it the corresponding word._
+* _If user enters a number that is equal to the first translatable number, the program will count up to the inputted number and replace it with the corresponding word._
   * _input: 3_
   * _output: 1,2,Ping_
 * _If user enters a number, the program will count up to the inputted number while returning Ping, Pong, or Ping-Pong for numbers divisible by 3, 5, or 15 respectively._
