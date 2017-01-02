@@ -1,6 +1,6 @@
 # _Ping Pong Calculator_
 
-#### _A numbers game that returns Ping, Pong, or Ping-Pong depending on the user input, 8/26/2016 _
+#### _A numbers game that returns Ping, Pong, or Ping-Pong depending on the user input, 8/26/2016_
 
 #### By _**Anand Angalig**_
 
@@ -24,13 +24,15 @@ _Enter any number as the PING, and we will return a PONG by counting from 1 to y
   * _input: 6_
   * _output: 1,2,Ping,4,Pong,6_
 
-## Setup/Installation Requirements
+## Setup/Installation Requirements:
 
 * _Go to https://github.com/anandangalig/ping_pong.git_
 * _Download this repository onto your local machine_
 * _Open the files in your favorite text editor to see the code_
 * _Open index.html in your web-browser to play the game_
 
+## To Directly see it on your web browser without cloning the repository:
+* _Go to https://anandangalig.github.io/ping_pong/_
 
 ## Known Bugs
 
